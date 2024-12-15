@@ -10,7 +10,7 @@ export default {
   },
   globals: {
     "ts-jest": {
-        "tsconfig": "tsConfig.app.json"
+        "tsconfig": "tsconfig.app.json"
     }
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts']

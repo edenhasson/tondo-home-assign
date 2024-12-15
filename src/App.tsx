@@ -1,7 +1,7 @@
 import {Route, Routes} from "react-router-dom";
 import LaunchesPage from "./pages/LaunchesPage";
 import LaunchPage from "./pages/LaunchPage";
-import './App.css';
+
 function App() {
 
     return (
