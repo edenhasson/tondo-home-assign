@@ -37,7 +37,6 @@ export default function LaunchDetails({ launch }: Props) {
                 textShadow: "0 4px 12px rgba(0, 0, 0, 0.8)",
             }}
         >
-            {/* Overlay for Glass Effect */}
             <Box
                 sx={{
                     position: "absolute",
@@ -49,8 +48,6 @@ export default function LaunchDetails({ launch }: Props) {
                     zIndex: 1,
                 }}
             />
-
-            {/* Content Box */}
             <Box
                 sx={{
                     position: "relative",
@@ -65,7 +62,6 @@ export default function LaunchDetails({ launch }: Props) {
                     boxShadow: "0 10px 30px rgba(0, 0, 0, 0.5)",
                 }}
             >
-                {/* Header Section */}
                 <Typography
                     variant="h2"
                     sx={{
@@ -77,7 +73,6 @@ export default function LaunchDetails({ launch }: Props) {
                     {launch.name || "Launch Details"}
                 </Typography>
 
-                {/* Image Section */}
                 {launch.img && (
                     <Box
                         component="img"
@@ -94,7 +89,6 @@ export default function LaunchDetails({ launch }: Props) {
                     />
                 )}
 
-                {/* Launch Details */}
                 <Typography
                     variant="body1"
                     sx={{
@@ -120,7 +114,6 @@ export default function LaunchDetails({ launch }: Props) {
                     {launch.description || "No description available."}
                 </Typography>
 
-                {/* Additional Link */}
                 {launch.link && (
                     <Typography
                         variant="body2"
